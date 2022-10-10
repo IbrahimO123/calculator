@@ -23,5 +23,6 @@
 - The Calculator is simple to used, Big thanks to my tutor for providing a platform to pratice what he taught use, also to Madars Biss at Sitepoint for providing a well detailed explanation on how to build a calculator from scratch. I hope to add more functionality to the Calculator in the future and used the skilled gained for my future projects...
 
 #### Link
+- https://calculatoror.netlify.app/
 
 
