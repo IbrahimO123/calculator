@@ -1,70 +1,27 @@
-# Getting Started with Create React App
+# Simple Calculator By Oliyide Ibrahim
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Summary
+- The calculator perform simple arthimetic calculation such as addition, subtraction, multiplication and divison
+- Created using react, and it is an assignment giving to me by my tutor Oluwasetemi at AltSchools Africa
+- Will give an "infinity" response if try to divide a number by zero
 
-## Available Scripts
+#### Tools and Technologies used
+- React
+- HTML
+- CSS
+- react-textfit module
 
-In the project directory, you can run:
+#### Knowledge Gained
+- Mapping arrays to from a compontent
+- Better used of ternary operators
+- Segretation of components also with their style sheet
+- Assiging of functions handler to each button
+- Deploying to the web using netflify
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+#### Conclusion and Credits
+- The Calculator is simple to used, Big thanks to my tutor for providing a platform to pratice what he taught use, also to Madars Biss at Sitepoint for providing a well detailed explanation on how to build a calculator from scratch. I hope to add more functionality to the Calculator in the future and used the skilled gained for my future projects...
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+#### Link
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
