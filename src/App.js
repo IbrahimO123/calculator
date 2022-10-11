@@ -17,7 +17,7 @@ const btnValues = [
 ];
 
 const math = (a, b, signs) =>
-  signs === "+" ? a + b : signs === "-" ? a - b : signs === "X" ? a * b : a / b;
+  signs === "+" ? a + b : signs === "-" ? a - b : signs === "X" ? a * b : (a / b).toFixed(10);
 
 const toLocaleString = (num) =>
   String(num).replace(/(?<!\..*)(\d)(?=(?:\d{3})+(?:\.|$))/g, "$1 ");
@@ -36,7 +36,7 @@ function App() {
   const numClickHandler = (e) => {
     e.preventDefault();
     const value = e.target.innerHTML;
-    if (removeSpaces(num).length < 10) {
+    if (removeSpaces(num).length < 16) {
       setCalc({
         ...calc,
         num:
