@@ -17,7 +17,7 @@ const btnValues = [
 ];
 
 const math = (a, b, signs) =>
-  signs === "+" ? a + b : signs === "-" ? a - b : signs === "X" ? a * b : (a / b).toFixed(10);
+  signs === "+" ? a + b : signs === "-" ? a - b : signs === "X" ? a * b : (a / b).toFixed(2);
 
 const toLocaleString = (num) =>
   String(num).replace(/(?<!\..*)(\d)(?=(?:\d{3})+(?:\.|$))/g, "$1 ");
