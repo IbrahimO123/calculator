@@ -36,7 +36,7 @@ function App() {
   const numClickHandler = (e) => {
     e.preventDefault();
     const value = e.target.innerHTML;
-    if (removeSpaces(num).length < 16) {
+    if (removeSpaces(num).length < 10) {
       setCalc({
         ...calc,
         num:
